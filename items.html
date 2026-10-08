@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BrewLab | Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Brew<span>Lab</span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="index.html">Home</a>
+                <a href="items.html" class="active">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+            <a href="contact.html" class="nav-button">
+                Visit Us
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= MENU HERO ================= -->
+
+        <section class="page-hero menu-page-hero">
+
+            <div class="page-hero-image"></div>
+            <div class="page-hero-overlay"></div>
+
+            <div class="container page-hero-content">
+
+                <p class="eyebrow light">
+                    OUR MENU
+                </p>
+
+                <h1>
+                    Find your
+                    <span>perfect brew.</span>
+                </h1>
+
+                <p>
+                    From bold espresso to refreshing cold brews,
+                    there is something for every coffee moment.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+
+        <section class="menu-section section">
+
+            <div class="container">
+
+                <div class="menu-intro">
+
+                    <p class="section-label">
+                        BREWLAB MENU
+                    </p>
+
+                    <h2>
+                        Crafted for
+                        <span>every mood.</span>
+                    </h2>
+
+                    <p>
+                        Explore our selection of carefully crafted
+                        hot and cold coffee favourites.
+                    </p>
+
+                </div>
+
+
+                <!-- FILTERS -->
+
+                <div class="menu-filters">
+
+                    <button
+                        class="filter-btn active"
+                        data-filter="all">
+                        All
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="hot">
+                        Hot Coffee
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="cold">
+                        Cold Coffee
+                    </button>
+
+                </div>
+
+
+                <!-- ================= HOT COFFEE ================= -->
+
+                <div class="menu-category">
+
+                    <div class="menu-category-heading">
+
+                        <div>
+                            <p class="section-label">
+                                HOT COFFEE
+                            </p>
+
+                            <h3>
+                                Warm & <span>bold.</span>
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="menu-grid">
+
+
+                        <!-- ESPRESSO -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=900&q=85"
+                                    alt="Espresso">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Espresso</h4>
+
+                                    <p>
+                                        A concentrated shot of
+                                        rich and intense coffee.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Water
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Espresso</h4>
+                                    <p>Strong & classic</p>
+                                </div>
+
+                                <strong>$3.50</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- AMERICANO -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=900&q=85"
+                                    alt="Americano">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Americano</h4>
+
+                                    <p>
+                                        Espresso softened with
+                                        hot water for a smooth finish.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Hot Water
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Americano</h4>
+                                    <p>Smooth & balanced</p>
+                                </div>
+
+                                <strong>$4.00</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- CAPPUCCINO -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85"
+                                    alt="Cappuccino">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Cappuccino</h4>
+
+                                    <p>
+                                        Espresso, steamed milk and
+                                        a generous layer of foam.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Milk · Foam
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Cappuccino</h4>
+                                    <p>Creamy & balanced</p>
+                                </div>
+
+                                <strong>$5.00</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- LATTE -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&w=900&q=85"
+                                    alt="Cafe Latte">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Cafe Latte</h4>
+
+                                    <p>
+                                        Silky steamed milk combined
+                                        with smooth espresso.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Steamed Milk
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Cafe Latte</h4>
+                                    <p>Soft & silky</p>
+                                </div>
+
+                                <strong>$5.00</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- MOCHA -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=900&q=85"
+                                    alt="Mocha">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Mocha</h4>
+
+                                    <p>
+                                        Rich chocolate combined
+                                        with espresso and milk.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Chocolate · Milk
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Mocha</h4>
+                                    <p>Chocolate & rich</p>
+                                </div>
+
+                                <strong>$5.50</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- FLAT WHITE -->
+
+                        <article
+                            class="menu-card"
+                            data-category="hot">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=900&q=85"
+                                    alt="Flat White">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Flat White</h4>
+
+                                    <p>
+                                        Velvety microfoam balanced
+                                        with rich espresso.
+                                    </p>
+
+                                    <small>
+                                        Double Espresso · Microfoam
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Flat White</h4>
+                                    <p>Velvety & strong</p>
+                                </div>
+
+                                <strong>$5.00</strong>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================= COLD COFFEE ================= -->
+
+                <div class="menu-category">
+
+                    <div class="menu-category-heading">
+
+                        <div>
+
+                            <p class="section-label">
+                                COLD COFFEE
+                            </p>
+
+                            <h3>
+                                Cool & <span>refreshing.</span>
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="menu-grid">
+
+
+                        <!-- COLD BREW -->
+
+                        <article
+                            class="menu-card"
+                            data-category="cold">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85"
+                                    alt="Cold Brew">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Cold Brew</h4>
+
+                                    <p>
+                                        Slowly brewed for a naturally
+                                        smooth and refreshing taste.
+                                    </p>
+
+                                    <small>
+                                        Coffee · Cold Water
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Cold Brew</h4>
+                                    <p>Smooth & refreshing</p>
+                                </div>
+
+                                <strong>$4.50</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- ICED LATTE -->
+
+                        <article
+                            class="menu-card"
+                            data-category="cold">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85"
+                                    alt="Iced Latte">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Iced Latte</h4>
+
+                                    <p>
+                                        Chilled espresso with milk
+                                        served over ice.
+                                    </p>
+
+                                    <small>
+                                        Espresso · Milk · Ice
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Iced Latte</h4>
+                                    <p>Cool & creamy</p>
+                                </div>
+
+                                <strong>$5.00</strong>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- MOCHA FRAPPE -->
+
+                        <article
+                            class="menu-card"
+                            data-category="cold">
+
+                            <div class="menu-card-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85"
+                                    alt="Mocha Frappe">
+
+                                <div class="recipe-overlay">
+
+                                    <h4>Mocha Frappe</h4>
+
+                                    <p>
+                                        Blended coffee with chocolate,
+                                        milk and ice.
+                                    </p>
+
+                                    <small>
+                                        Coffee · Chocolate · Milk · Ice
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <div class="menu-card-info">
+
+                                <div>
+                                    <h4>Mocha Frappe</h4>
+                                    <p>Cold & indulgent</p>
+                                </div>
+
+                                <strong>$6.00</strong>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="menu-cta section">
+
+            <div class="container cta-container">
+
+                <p class="section-label">
+                    STILL DECIDING?
+                </p>
+
+                <h2>
+                    Your next favourite
+                    <span>might be here.</span>
+                </h2>
+
+                <a href="contact.html" class="btn btn-primary">
+                    Visit BrewLab
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Brew<span>Lab</span>
+                </a>
+
+                <p>
+                    Crafted coffee for good moments,
+                    good conversations and good people.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Explore</h4>
+
+                <a href="index.html">Home</a>
+                <a href="items.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Visit</h4>
+
+                <p>BrewLab Coffee House</p>
+                <p>Bangalore, India</p>
+                <p>Mon – Sun: 8:00 AM – 9:00 PM</p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Connect</h4>
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="mailto:hello@brewlab.com">
+                    hello@brewlab.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 BrewLab. Crafted for coffee people.
+            </p>
+
+            <p>
+                Made with coffee & passion.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/menu.js"></script>
+
+</body>
+</html>
