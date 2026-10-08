@@ -1,95 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | BrewLab</title>
+
+    <title>BrewLab | About Us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="index.html">BrewLab</a>
+    <!-- ================= NAVBAR ================= -->
 
-            <div>
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Brew<span>Lab</span>
+            </a>
+
+            <nav class="nav-links">
+
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="items.html">Menu</a>
+                <a href="about.html" class="active">About</a>
                 <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+
+            </nav>
+
+            <a href="items.html" class="nav-button">
+                Explore Menu
+            </a>
+
+        </div>
+
     </header>
+
 
     <main>
 
-        <section>
-            <h1>About BrewLab</h1>
-            <p>
-                Where great coffee meets creativity, quality, and passion.
-            </p>
+        <!-- ================= ABOUT HERO ================= -->
+
+        <section class="page-hero about-page-hero">
+
+            <div class="page-hero-image"></div>
+            <div class="page-hero-overlay"></div>
+
+            <div class="container page-hero-content">
+
+                <p class="eyebrow light">
+                    ABOUT BREWLAB
+                </p>
+
+                <h1>
+                    Coffee with
+                    <span>a story.</span>
+                </h1>
+
+                <p>
+                    A place built around great coffee,
+                    meaningful conversations and simple moments.
+                </p>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Our Story</h2>
 
-            <p>
-                BrewLab was created with a simple idea — to make every cup
-                of coffee a memorable experience.
-            </p>
+        <!-- ================= INTRO ================= -->
 
-            <p>
-                We believe coffee is more than just a drink. It is a moment
-                to pause, connect, and enjoy.
-            </p>
+        <section class="about-intro section">
 
-            <p>
-                From carefully selected beans to thoughtfully crafted brews,
-                we focus on quality at every step.
-            </p>
+            <div class="container about-intro-grid">
+
+                <div>
+
+                    <p class="section-label">
+                        OUR PHILOSOPHY
+                    </p>
+
+                    <h2>
+                        We believe coffee
+                        should feel <span>special.</span>
+                    </h2>
+
+                </div>
+
+
+                <div>
+
+                    <p>
+                        BrewLab was created with one simple purpose:
+                        to make everyday coffee moments more meaningful.
+                    </p>
+
+                    <p>
+                        We care about where our beans come from,
+                        how they are brewed and how they make you feel
+                        when you take that first sip.
+                    </p>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>What We Believe In</h2>
 
-            <article>
-                <h3>Quality</h3>
-                <p>
-                    We carefully select our ingredients and focus on quality
-                    in every cup we serve.
-                </p>
-            </article>
+        <!-- ================= STORY ================= -->
 
-            <article>
-                <h3>Passion</h3>
-                <p>
-                    Our love for coffee drives us to continuously improve,
-                    experiment, and create something special.
-                </p>
-            </article>
+        <section class="about-story section">
 
-            <article>
-                <h3>Community</h3>
-                <p>
-                    BrewLab is a place where people can relax, connect,
-                    share ideas, and enjoy great coffee together.
-                </p>
-            </article>
+            <div class="container story-grid">
+
+                <div class="story-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=90"
+                        alt="Coffee being prepared">
+
+                </div>
+
+
+                <div class="story-content">
+
+                    <p class="section-label">
+                        OUR STORY
+                    </p>
+
+                    <h2>
+                        Started with a
+                        <span>simple idea.</span>
+                    </h2>
+
+                    <p>
+                        We wanted to build more than another coffee shop.
+                        We wanted to create a space where people could
+                        slow down, connect and enjoy genuinely good coffee.
+                    </p>
+
+                    <p>
+                        From our first cup to every cup served today,
+                        our focus remains the same:
+                        quality, consistency and hospitality.
+                    </p>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Our Mission</h2>
 
-            <p>
-                Our mission is to create a welcoming space where great coffee,
-                creativity, and community come together.
-            </p>
+        <!-- ================= STATS ================= -->
+
+        <section class="about-stats">
+
+            <div class="container numbers-grid">
+
+                <div class="number-item">
+                    <strong>20+</strong>
+                    <span>Coffee varieties</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>5+</strong>
+                    <span>Years of passion</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>100%</strong>
+                    <span>Made with care</span>
+                </div>
+
+                <div class="number-item">
+                    <strong>∞</strong>
+                    <span>Good conversations</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= VALUES ================= -->
+
+        <section class="values-section section">
+
+            <div class="container">
+
+                <div class="center-heading">
+
+                    <p class="section-label">
+                        WHAT WE VALUE
+                    </p>
+
+                    <h2>
+                        Simple values.
+                        <span>Great coffee.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="values-grid">
+
+                    <article class="value-card">
+
+                        <span class="value-number">
+                            01
+                        </span>
+
+                        <h3>Quality</h3>
+
+                        <p>
+                            We never compromise on the ingredients,
+                            beans or techniques behind every cup.
+                        </p>
+
+                    </article>
+
+
+                    <article class="value-card">
+
+                        <span class="value-number">
+                            02
+                        </span>
+
+                        <h3>Passion</h3>
+
+                        <p>
+                            Coffee is more than a drink to us.
+                            It is something we genuinely love creating.
+                        </p>
+
+                    </article>
+
+
+                    <article class="value-card">
+
+                        <span class="value-number">
+                            03
+                        </span>
+
+                        <h3>Community</h3>
+
+                        <p>
+                            Our coffee shop is a place for people
+                            to meet, connect, work and relax.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= APPROACH ================= -->
+
+        <section class="approach-section section">
+
+            <div class="container">
+
+                <div class="center-heading">
+
+                    <p class="section-label">
+                        OUR APPROACH
+                    </p>
+
+                    <h2>
+                        From bean
+                        <span>to cup.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="approach-grid">
+
+                    <article class="approach-card">
+
+                        <span>01</span>
+
+                        <h3>Select</h3>
+
+                        <p>
+                            We carefully select beans with
+                            distinctive flavour profiles.
+                        </p>
+
+                    </article>
+
+
+                    <article class="approach-card">
+
+                        <span>02</span>
+
+                        <h3>Craft</h3>
+
+                        <p>
+                            Our coffee is brewed with precision
+                            to bring out its best character.
+                        </p>
+
+                    </article>
+
+
+                    <article class="approach-card">
+
+                        <span>03</span>
+
+                        <h3>Serve</h3>
+
+                        <p>
+                            Every cup is served fresh,
+                            warm and ready to be enjoyed.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MISSION ================= -->
+
+        <section class="mission-section">
+
+            <div class="container mission-container">
+
+                <p class="section-label">
+                    OUR MISSION
+                </p>
+
+                <h2>
+                    Make every coffee
+                    <span>worth remembering.</span>
+                </h2>
+
+                <a href="items.html" class="btn btn-primary">
+                    Explore Our Menu
+                </a>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 BrewLab. All rights reserved.</p>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Brew<span>Lab</span>
+                </a>
+
+                <p>
+                    Crafted coffee for good moments,
+                    good conversations and good people.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Explore</h4>
+
+                <a href="index.html">Home</a>
+                <a href="items.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Visit</h4>
+
+                <p>BrewLab Coffee House</p>
+                <p>Bangalore, India</p>
+                <p>Mon – Sun: 8:00 AM – 9:00 PM</p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Connect</h4>
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="mailto:hello@brewlab.com">
+                    hello@brewlab.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 BrewLab. Crafted for coffee people.
+            </p>
+
+            <p>
+                Made with coffee & passion.
+            </p>
+
+        </div>
+
     </footer>
+
+
+    <script src="js/about.js"></script>
 
 </body>
 </html>
